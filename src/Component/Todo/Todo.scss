@@ -1,0 +1,28 @@
+/** @format */
+
+.main-todo {
+  display: flex;
+  flex-direction: column;
+
+  margin: 100px 300px;
+
+  .add-todo {
+  }
+  .render-list-todo {
+  }
+  .render-items-todo {
+    display: flex;
+    flex-direction: row;
+    .item-todo {
+      min-width: 100px;
+      list-style: none;
+    }
+  }
+  .delete-todo {
+    margin-left: 20px;
+  }
+}
+
+table, th, td {
+  border:1px solid black;
+}
