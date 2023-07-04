@@ -9,9 +9,9 @@ function App() {
       <header className="App-header">
         {/* <Home /> */}
 
-        {/* <Todo /> */}
+        <Todo />
 
-        <TableTodo />
+        {/* <TableTodo /> */}
 
       </header>
     </div>

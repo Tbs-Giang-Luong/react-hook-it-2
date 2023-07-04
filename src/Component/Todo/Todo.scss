@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
 
-  margin: 100px 300px;
+  margin: 100px 150px;
 
   .add-todo {
   }
@@ -13,13 +13,19 @@
   .render-items-todo {
     display: flex;
     flex-direction: row;
+    padding: 4px 0px;
     .item-todo {
       min-width: 100px;
       list-style: none;
     }
   }
+
+  .edit-todo {
+    margin-left: 12px;
+
+  }
   .delete-todo {
-    margin-left: 20px;
+    margin-left: 10px;
   }
 }
 
